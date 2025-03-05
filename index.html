@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>My Resume</title>
-     <link rel="stylesheet" href="style.css">
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Subrata Kumar Sahu">
+    <meta name="description" content="Professional Resume of Subrata - Fresher 2025">
+    <meta name="keywords" content="Resume, Frontend Developer, Portfolio, Web Developer, Subrata Kumar Sahu">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (OG) Meta Tags -->
+    <meta property="og:title" content="Subrata Kumar Sahu - Resume">
+    <meta property="og:description" content="Professional resume of Your Name, showcasing skills, experience, and education.">
+    <meta property="og:image" content="https://yourwebsite.com/your-image.jpg">
+    <meta property="og:url" content="https://subratasahu21.github.io/Single-Page-CV/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Subrata - Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container">
-          <h1>Subrata Kumar Sahu</h1>
-          <h2>In my way to become a successful MLops Engineer</h2>
-          <p>Sihala Road, Konisi Hata, Berhampur, Odisha, Pin: 761008</p>
-          <p>+91 9937374229 | subratsahu737@gmail.com</p>
+    <header>
+        <h1>Subrata Kumar Sahu</h1>
+        <p><strong>Fresher - 2025</strong></p>
+    </header>
 
-          <h3>Skills</h3>
-          <ul>
-               <li>Python</li>
-               <li>Java</li>
-               <li>HTML, CSS, JavaScript</li>
-               <li>SQL</li>
-               <li>Machine Learning</li>
-               <li>Deep Learning</li>
-          </ul>
+    <section>
+        <h2>Contact Information</h2>
+        <address>
+            <p>📍 Sihala Road, Konisi Hata, Berhampur, Odisha 761008</p>
+            <p>📞 <a href="tel:+919937374229">(+91) 9937374229</a></p>
+            <p>📧 <a href="mailto:subratsahu737@gmail.com">subratsahu737@gmail.com</a></p>
+        </address>
+    </section>
 
-          <h3>Education</h3>
-          <p>NISt University, Berhampur - B.Tech(CSE)</p>
-          <p>2021-2025</p>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java, C</li>
+            <li>Machine Learning, Deep Learning</li>
+            <li>SQL, MongoDB</li>
+        </ul>
+    </section>
 
-          <h3>Across the Internet</h3>
-          <p><a href="https://www.linkedin.com/in/subrata-kumar-sahu-55a262253/">LinkedIn</a> | <a href="https://github.com/subratasahu21">Github</a></p>
-     </div>
+    <section>
+        <h2>Education</h2>
+        <article>
+            <h3>NIST University, Berhampur - B.Tech(CSE)</h3>
+            <p><time datetime="2021">2021</time> to <time datetime="2025">2025</time></p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Find Me Online</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/subrata-kumar-sahu-55a262253/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/subratasahu21" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Subrata Kumar Sahu. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Auto-update footer year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
