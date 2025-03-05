@@ -5,3 +5,5 @@ Features:
 ✔️ Mobile-friendly and responsive layout
 ✔️ Hosted for free on GitHub Pages
 ✔️ Easily customizable
+
+Project URL: https://roadmap.sh/projects/single-page-cv
